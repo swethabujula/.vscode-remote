@@ -56,3 +56,10 @@
 2024-08-01 15:42:39.347 [info] Using in-memory cached assignable users.
 2024-08-01 15:42:39.363 [info] Review+0> No matching pull request metadata found locally for current branch master
 2024-08-01 15:42:39.380 [info] Review+0> No matching pull request metadata found on GitHub for current branch master
+2024-08-01 15:42:49.657 [info] Review+0> Validate state in progress
+2024-08-01 15:42:49.657 [info] Review+0> Validating state...
+2024-08-01 15:42:49.659 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-08-01 15:42:49.659 [info] No GitHub remotes found for folder /workspace/.vscode-remote
+2024-08-01 15:42:49.659 [info] Using in-memory cached assignable users.
+2024-08-01 15:42:49.676 [info] Review+0> No matching pull request metadata found locally for current branch master
+2024-08-01 15:42:49.692 [info] Review+0> No matching pull request metadata found on GitHub for current branch master
