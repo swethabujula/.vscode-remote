@@ -1,0 +1,40 @@
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 "before all" hook for ":1 "universe" database should exist"
+
+Error: Cannot connect to psql
+error: database "universe" does not exist
+at Context.<anonymous> (test/1.1.test.js:14:13)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :6 "INT" data type should be used on two columns that aren't a key
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(integerColumnsRes.rows.length - intKeys >= 2)
+
+at Context.<anonymous> (test/1.1.test.js:124:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :14 Each table should have at least three rows
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1.1.test.js:236:54)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :16 The "planet" table should have at least 12 rows
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(planetRowsRes.rows.length >= 12)
+
+at Context.<anonymous> (test/1.1.test.js:259:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :17 The "moon" table should have at least 20 rows
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(moonRowsRes.rows.length >= 20)
+
+at Context.<anonymous> (test/1.1.test.js:268:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

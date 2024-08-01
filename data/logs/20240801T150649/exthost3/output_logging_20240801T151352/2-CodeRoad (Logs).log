@@ -1,0 +1,414 @@
+coderoad v0.19.4
+STATE: "Setup.Startup"
+ROUTE: "Setup.Startup": On level unknown, step unknown
+EDITOR_STARTUP
+Continuing tutorial from progress: level 1 step 1.1
+LOAD_STORED_TUTORIAL
+EDITOR_TUTORIAL_CONTINUE_CONFIG
+Tutorial: Celestial Bodies Database (2.0.0)
+Command: ./.freeCodeCamp/setup.sh
+COMMAND_START
+Calling command: ./.freeCodeCamp/setup.sh
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 1, step 1.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+Calling command: git log -n 1 --pretty=format:%s 5fb8493694c4dccc55fc5acee35da474803006c2
+Calling command: git log -g --grep='1.1'
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+Command output:  * Stopping PostgreSQL 12 database server
+   ...done.
+ * Starting PostgreSQL 12 database server
+   ...done.
+
+COMMAND_SUCCESS
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_RESET_LATEST
+Calling command: git init
+Calling command: git branch --show-current
+Calling command: git remote -v
+Calling command: git checkout --orphan reset-orphan-branch
+STATE: "Tutorial.Reset"
+ROUTE: "Tutorial.Reset": On level 1, step 1.1
+Calling command: git stash --include-untracked
+Calling command: git rm -rf .
+Workspace path: /workspace/project/.gitignore
+Removing file: /workspace/project/.gitignore
+Calling command: git branch -D main
+
+Calling command: git checkout -b main
+
+Calling command: git fetch coderoad v2.0.0
+Calling command: git merge coderoad/v2.0.0
+Calling command: git reset --hard 5fb8493694c4dccc55fc5acee35da474803006c2
+Command: ./.freeCodeCamp/setup.sh
+COMMAND_START
+Calling command: ./.freeCodeCamp/setup.sh
+STATE: "Tutorial.Reset"
+ROUTE: "Tutorial.Reset": On level 1, step 1.1
+Command output:  * Stopping PostgreSQL 12 database server
+   ...done.
+ * Starting PostgreSQL 12 database server
+   ...done.
+
+COMMAND_SUCCESS
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 1, step 1.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+Calling command: git log -n 1 --pretty=format:%s 5fb8493694c4dccc55fc5acee35da474803006c2
+Calling command: git log -g --grep='1.1'
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_RESET_LATEST
+Calling command: git init
+STATE: "Tutorial.Reset"
+ROUTE: "Tutorial.Reset": On level 1, step 1.1
+Calling command: git branch --show-current
+Calling command: git remote -v
+Calling command: git checkout --orphan reset-orphan-branch
+Calling command: git stash --include-untracked
+Calling command: git rm -rf .
+Workspace path: /workspace/project/.gitignore
+Removing file: /workspace/project/.gitignore
+Calling command: git branch -D main
+
+Calling command: git checkout -b main
+
+Calling command: git fetch coderoad v2.0.0
+Calling command: git merge coderoad/v2.0.0
+Calling command: git reset --hard 5fb8493694c4dccc55fc5acee35da474803006c2
+Command: ./.freeCodeCamp/setup.sh
+COMMAND_START
+Calling command: ./.freeCodeCamp/setup.sh
+STATE: "Tutorial.Reset"
+ROUTE: "Tutorial.Reset": On level 1, step 1.1
+Command output:  * Stopping PostgreSQL 12 database server
+   ...done.
+ * Starting PostgreSQL 12 database server
+   ...done.
+
+COMMAND_SUCCESS
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 1, step 1.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+Calling command: git log -n 1 --pretty=format:%s 5fb8493694c4dccc55fc5acee35da474803006c2
+Calling command: git log -g --grep='1.1'
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_RESET_LATEST
+Calling command: git init
+STATE: "Tutorial.Reset"
+ROUTE: "Tutorial.Reset": On level 1, step 1.1
+Calling command: git branch --show-current
+Calling command: git remote -v
+Calling command: git checkout --orphan reset-orphan-branch
+Calling command: git stash --include-untracked
+Calling command: git rm -rf .
+Workspace path: /workspace/project/.gitignore
+Removing file: /workspace/project/.gitignore
+Calling command: git branch -D main
+
+Calling command: git checkout -b main
+
+Calling command: git fetch coderoad v2.0.0
+Calling command: git merge coderoad/v2.0.0
+Calling command: git reset --hard 5fb8493694c4dccc55fc5acee35da474803006c2
+Command: ./.freeCodeCamp/setup.sh
+COMMAND_START
+Calling command: ./.freeCodeCamp/setup.sh
+STATE: "Tutorial.Reset"
+ROUTE: "Tutorial.Reset": On level 1, step 1.1
+Command output:  * Stopping PostgreSQL 12 database server
+   ...done.
+ * Starting PostgreSQL 12 database server
+   ...done.
+
+COMMAND_SUCCESS
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 1, step 1.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+Calling command: git log -n 1 --pretty=format:%s 5fb8493694c4dccc55fc5acee35da474803006c2
+Calling command: git log -g --grep='1.1'
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_RESET_LATEST
+Calling command: git init
+Calling command: git branch --show-current
+STATE: "Tutorial.Reset"
+ROUTE: "Tutorial.Reset": On level 1, step 1.1
+Calling command: git remote -v
+Calling command: git checkout --orphan reset-orphan-branch
+Calling command: git stash --include-untracked
+Calling command: git rm -rf .
+Workspace path: /workspace/project/.gitignore
+Removing file: /workspace/project/.gitignore
+Calling command: git branch -D main
+
+Calling command: git checkout -b main
+
+Calling command: git fetch coderoad v2.0.0
+Calling command: git merge coderoad/v2.0.0
+Calling command: git reset --hard 5fb8493694c4dccc55fc5acee35da474803006c2
+Command: ./.freeCodeCamp/setup.sh
+COMMAND_START
+Calling command: ./.freeCodeCamp/setup.sh
+STATE: "Tutorial.Reset"
+ROUTE: "Tutorial.Reset": On level 1, step 1.1
+Command output:  * Stopping PostgreSQL 12 database server
+   ...done.
+ * Starting PostgreSQL 12 database server
+   ...done.
+
+COMMAND_SUCCESS
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 1, step 1.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+Calling command: git log -n 1 --pretty=format:%s 5fb8493694c4dccc55fc5acee35da474803006c2
+Calling command: git log -g --grep='1.1'
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+Test pass position: {"stepId":"1.1","levelId":"1","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"1.1","levelId":"1","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 1.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 1, step 1.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 1, step 1.1
+EDITOR_SYNC_POSITION
+EDITOR_TUTORIAL_COMPLETE
+STATE: "Tutorial.Completed"
+ROUTE: "Tutorial.Completed": Completed level 1, step 1.1
+Called webhook endpoint https://api.freecodecamp.org/coderoad-challenge-completed with body "{\"tutorialId\":\"freeCodeCamp/learn-celestial-bodies-database:v1.0.0\"}"
+EDITOR_REQUEST_WORKSPACE
+STATE: "Tutorial.Completed"
+ROUTE: "Tutorial.Completed": Completed level 1, step 1.1

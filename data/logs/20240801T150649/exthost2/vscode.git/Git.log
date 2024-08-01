@@ -1,0 +1,5 @@
+2024-08-01 15:13:38.079 [info] Log level: Info
+2024-08-01 15:13:38.079 [info] Validating found git in: "git"
+2024-08-01 15:13:38.079 [info] Using git "2.43.0" from "git"
+2024-08-01 15:13:38.079 [warning] [swsf] Unable to read folder '/workspace/swetha': Error: ENOENT: no such file or directory, scandir '/workspace/swetha'
+2024-08-01 15:13:38.079 [warning] Failed to get repository realpath for: "/workspace/swetha". Error: ENOENT: no such file or directory, realpath '/workspace/swetha'

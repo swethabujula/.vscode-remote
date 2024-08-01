@@ -1,0 +1,59 @@
+2024-08-01 15:06:49.522 [info] 
+
+
+
+
+2024-08-01 15:06:49.544 [info] Extension host agent started.
+2024-08-01 15:06:49.562 [info] Started initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-08-01 15:06:49.685 [info] Completed initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-08-01 15:06:49.703 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-08-01 15:06:51.114 [info] Installing builtin extension 'github.vscode-pull-request-github'...
+2024-08-01 15:06:51.135 [info] Getting Manifest... github.vscode-pull-request-github
+2024-08-01 15:06:51.439 [info] Installing extension: github.vscode-pull-request-github {"isMachineScoped":true,"installPreReleaseVersion":false,"isBuiltin":true,"installGivenVersion":false,"isApplicationScoped":true,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.91.1","date":"2024-07-12T11:49:45.590Z"}}
+2024-08-01 15:06:53.470 [error] Could not load vsce-sign module Cannot find module 'node-ovsx-sign'
+Require stack:
+- /ide/out/server-main.js
+2024-08-01 15:06:53.470 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2024-08-01 15:06:53.545 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.92.0-universal: github.vscode-pull-request-github
+2024-08-01 15:06:53.549 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.92.0-universal
+2024-08-01 15:06:53.562 [info] Extension installed successfully: github.vscode-pull-request-github file:///workspace/.vscode-remote/extensions/extensions.json
+2024-08-01 15:06:53.563 [info] Extension 'github.vscode-pull-request-github' v0.92.0 was successfully installed.
+2024-08-01 15:06:53.566 [info] Installing extensions...
+2024-08-01 15:06:53.847 [info] Installing extension 'coderoad.coderoad'...
+2024-08-01 15:06:53.847 [info] Getting Manifest... coderoad.coderoad
+2024-08-01 15:06:54.012 [info] Installing extension: coderoad.coderoad {"isMachineScoped":true,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.91.1","date":"2024-07-12T11:49:45.590Z"}}
+2024-08-01 15:06:54.528 [info] Extension is not signed: coderoad.coderoad
+2024-08-01 15:06:54.586 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/coderoad.coderoad-0.19.4-universal: coderoad.coderoad
+2024-08-01 15:06:54.588 [info] Renamed to /workspace/.vscode-remote/extensions/coderoad.coderoad-0.19.4-universal
+2024-08-01 15:06:54.596 [info] Extension installed successfully: coderoad.coderoad file:///workspace/.vscode-remote/extensions/extensions.json
+2024-08-01 15:06:54.597 [info] Extension 'coderoad.coderoad' v0.19.4 was successfully installed.
+2024-08-01 15:06:56.584 [info] [192.168.139.202][bc7da8c7][ManagementConnection] New connection established.
+2024-08-01 15:07:00.548 [info] [192.168.219.139][d07046f2][ExtensionHostConnection] New connection established.
+2024-08-01 15:07:00.553 [info] [192.168.219.139][d07046f2][ExtensionHostConnection] <618> Launched Extension Host Process.
+2024-08-01 15:13:27.384 [info] [192.168.139.202][bc7da8c7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-01 15:13:27.441 [info] [192.168.219.139][d07046f2][ExtensionHostConnection] <618> Extension Host Process exited with code: 0, signal: null.
+2024-08-01 15:13:32.492 [info] [192.168.219.139][8602c8b1][ManagementConnection] New connection established.
+2024-08-01 15:13:33.078 [info] [192.168.139.202][866b2ff4][ExtensionHostConnection] New connection established.
+2024-08-01 15:13:33.086 [info] [192.168.139.202][866b2ff4][ExtensionHostConnection] <2038> Launched Extension Host Process.
+2024-08-01 15:13:44.878 [info] [192.168.219.139][8602c8b1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-01 15:13:44.987 [info] [192.168.139.202][866b2ff4][ExtensionHostConnection] <2038> Extension Host Process exited with code: 0, signal: null.
+2024-08-01 15:13:48.801 [info] [192.168.44.9][de20ee2c][ManagementConnection] New connection established.
+2024-08-01 15:13:49.451 [info] [192.168.219.139][354c5fca][ExtensionHostConnection] New connection established.
+2024-08-01 15:13:49.462 [info] [192.168.219.139][354c5fca][ExtensionHostConnection] <2100> Launched Extension Host Process.
+2024-08-01 15:18:04.303 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-01 15:18:04.304 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-01 15:39:18.607 [info] [192.168.44.9][de20ee2c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-01 15:39:18.648 [info] [192.168.219.139][354c5fca][ExtensionHostConnection] <2100> Extension Host Process exited with code: 0, signal: null.
+2024-08-01 15:39:24.360 [info] [192.168.44.9][0a006998][ManagementConnection] New connection established.
+2024-08-01 15:39:24.996 [info] [192.168.139.202][5454b142][ExtensionHostConnection] New connection established.
+2024-08-01 15:39:25.008 [info] [192.168.139.202][5454b142][ExtensionHostConnection] <8278> Launched Extension Host Process.
+2024-08-01 15:39:44.372 [info] [192.168.44.9][0a006998][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-01 15:39:44.426 [info] [192.168.139.202][5454b142][ExtensionHostConnection] <8278> Extension Host Process exited with code: 0, signal: null.
+2024-08-01 15:39:48.777 [info] [192.168.219.139][88cf489f][ManagementConnection] New connection established.
+2024-08-01 15:39:49.133 [info] [192.168.44.9][51bf8e7b][ExtensionHostConnection] New connection established.
+2024-08-01 15:39:49.139 [info] [192.168.44.9][51bf8e7b][ExtensionHostConnection] <8384> Launched Extension Host Process.
+2024-08-01 15:41:06.569 [info] [192.168.219.139][88cf489f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-01 15:41:06.596 [info] [192.168.44.9][51bf8e7b][ExtensionHostConnection] <8384> Extension Host Process exited with code: 0, signal: null.
+2024-08-01 15:41:11.741 [info] [192.168.44.9][ae30ee41][ManagementConnection] New connection established.
+2024-08-01 15:41:12.236 [info] [192.168.219.139][13128cac][ExtensionHostConnection] New connection established.
+2024-08-01 15:41:12.242 [info] [192.168.219.139][13128cac][ExtensionHostConnection] <8612> Launched Extension Host Process.

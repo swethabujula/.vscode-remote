@@ -1,0 +1,26 @@
+2024-08-01 15:39:54.885 [info] Log level: Info
+2024-08-01 15:39:54.885 [info] Validating found git in: "git"
+2024-08-01 15:39:54.885 [info] Using git "2.43.0" from "git"
+2024-08-01 15:39:54.885 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-01 15:39:54.885 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-08-01 15:39:54.885 [info] Open repository: /workspace/project
+2024-08-01 15:39:54.885 [info] > git config --get commit.template [5ms]
+2024-08-01 15:39:54.885 [info] > git rev-parse --show-toplevel [7ms]
+2024-08-01 15:39:54.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-08-01 15:39:54.885 [info] > git rev-parse --show-toplevel [7ms]
+2024-08-01 15:39:54.885 [info] > git status -z -uall [4ms]
+2024-08-01 15:39:54.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-08-01 15:39:54.885 [info] > git config --get commit.template [6ms]
+2024-08-01 15:39:54.885 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-08-01 15:39:54.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2024-08-01 15:39:54.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-01 15:39:54.885 [info] > git status -z -uall [3ms]
+2024-08-01 15:39:54.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-01 15:39:54.885 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-08-01 15:39:54.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [10ms]
+2024-08-01 15:39:59.401 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-08-01 15:39:59.401 [warning] git config failed: Failed to execute git
+2024-08-01 15:39:59.407 [info] > git config --local branch.main.remote [1ms]
+2024-08-01 15:39:59.408 [warning] git config failed: Failed to execute git
+2024-08-01 15:39:59.413 [info] > git config --local branch.main.merge [1ms]
+2024-08-01 15:39:59.413 [warning] git config failed: Failed to execute git
