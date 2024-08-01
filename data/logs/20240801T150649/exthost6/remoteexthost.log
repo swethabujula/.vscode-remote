@@ -14,3 +14,4 @@
 2024-08-01 15:41:20.248 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2024-08-01 15:41:20.248 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2024-08-01 15:41:20.248 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-01 15:42:04.050 [warning] vscode.json-language-features - Code actions of kind 'source.fixAll' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
